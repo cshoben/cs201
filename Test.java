@@ -8,7 +8,7 @@ public class Test {
 	public static void main(String[] args) throws FileNotFoundException {
 		Scanner reader = new Scanner(new File("data/testfile.txt"));
 		//List<String> uniqueWords = new ArrayList<>();
-Set <String> uniqueWords = new HashSet<>();
+	Set <String> uniqueWords = new HashSet<>();
 // array list is a type of a list
 
 		int numWords = 0;
