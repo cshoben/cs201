@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Person201Finder {
     public static void main(String[] args) throws IOException{
-        Person201 myself = new Person201("Chelsea Shoben", "CARL", 4);
+        Person201 myself = new Person201("Chelsea Shoben", "FFSC", 4);
         Person201[] cs201 = Person201Utilities.readURL("https://courses.cs.duke.edu/compsci201/fall22/people.txt");
 
         System.out.println("\nSearching for people near " + myself.getName() + "\n");
