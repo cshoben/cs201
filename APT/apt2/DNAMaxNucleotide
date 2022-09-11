@@ -1,0 +1,12 @@
+
+   public class DNAMaxNucleotide {
+      public String max(String[] strands, String nuc) {
+            // fill in code here
+            String max = "";
+
+            for (strand : strands)
+
+            return max;
+      }
+   }
+
