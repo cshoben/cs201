@@ -1,6 +1,7 @@
 /**
  * For use in Compsci 201, P0, Duke University
  * @author Brandon Fain
+ * @author Chelsea Shoben
  * To be modified by students in 201. 
  * when you make a modification, add yourself 
  * as an author in these comments.
