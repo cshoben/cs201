@@ -27,9 +27,10 @@ public class SandwichBar {
             int testResult = testInstance.whichOrder(available, orders);
             System.out.println(testResult);
         }
+        */
      }
 
-     */
+     
   
 // available is the list of ingredients thae snadwich bar can use. 
 // orders are the types of sandwiches. 
