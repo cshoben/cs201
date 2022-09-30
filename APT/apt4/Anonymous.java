@@ -48,14 +48,14 @@ public class Anonymous {
     }
  
  // how many of the list of messages can be written?
-    public static List<Character> convertWordToCharList (String word) {
+    public List<Character> convertWordToCharList (String word) {
         List<Character> chars = new ArrayList<>();
         for (char ch: word.toCharArray()) {
             chars.add(ch);
         }
         return chars;
     }
-
+/*
     public static void main(String[] args) {
         String[] headlines = {"abcdef","abcdef"};
         String [] messages = {"AaBbCc","aabbbcc","   ","FADE"};
@@ -63,7 +63,8 @@ public class Anonymous {
         int testResult = testInstance.howMany(headlines, messages);
         System.out.println(testResult);   
     }
-
+*/
 
 }
+
 
