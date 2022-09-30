@@ -2,16 +2,7 @@ import java.util.*;
 
 public class MemberCheck {
     public String[] whosDishonest(String[] club1, String[] club2, String[] club3) {
-             // TODO: fill in code here
-             // entrace log files
-             // three clubs
-             // return sorted list of all people not honest
-                // meaning that person went to more than one club on a given day
-            
-            // I could make a list of all the members that went that day
-            // I could then check each club and count the number they appear in
-            // if count is greater than two, report their name
-            // figure out how to report back in lexiographic order. 
+             
 
             //Map<String, Integer> members = new HashMap<String, Integer>();
             List<String> dishonestTracker = new ArrayList<>();
