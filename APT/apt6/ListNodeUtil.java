@@ -16,7 +16,15 @@ public class ListNodeUtil {
 
 
     public static void printList (ListNode list) {
-
+        System.out.print("[");
+        while (list.next != null) {
+            System.out.printf("%d, ", list.info);
+            list = list.next;
+        }
+        if (list != null) {
+            System.out.printf("%d", list.info);
+        }
+        System.out.printf("]%n");
     }
 }
 
