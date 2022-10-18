@@ -4,7 +4,7 @@ import java.util.*;
 public class SetAside {
     public String common(String[] list) {
 
-        // Start with a map of all the words in the first string. 
+        // Start with a set of all the words in the first string. 
         String[] startingWords = list[0].split("\\s+");
         HashSet<String> uniqueWordsCommon = new HashSet<>();
         uniqueWordsCommon.addAll(Arrays.asList(startingWords));

@@ -31,13 +31,13 @@ public class Aaagmnrs {
     public String[] anagrams(String[] phrases) {
 
         // Used the AnaWord code from Discussion 5 to help design the class object. 
-
         
-        // Create an array with all the input phrases. 
+        // Create an ArrayList with all the input phrases. 
         List<String> keep = new ArrayList<String>();
         keep.addAll(Arrays.asList(phrases));
 
-        // Loop through each phrase, and turn it into an Anagram object which will allow us to compare the phrases for being Aaagmnrs. 
+        // Loop through each phrase, and turn it into an Anagram object which will allow us to 
+        // compare the phrases for being Aaagmnrs. 
     
         for (int i = 0; i < phrases.length; i++) {
             String clean = phrases[i].replaceAll("\\s", "");
